@@ -1,6 +1,6 @@
 # RPCLogin
-User registration and login using SUN RPC
+User registration and login using SUN RPC:
 
-Steps to run:
-1. ./server
-2. ./client localhost
+Steps to run:  
+1) ./server  
+2) ./client localhost
