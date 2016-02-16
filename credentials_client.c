@@ -5,6 +5,9 @@
 
 #include "credentials.h"
 
+/* Name: loginUser
+ * Desc: Handles user login request
+*/
 void
 loginUser(char *host) {
 
@@ -51,7 +54,9 @@ loginUser(char *host) {
        clnt_destroy(clnt);
 }
 
-
+/* Name: registerUser
+   Desc: Handles user registration request
+*/
 void
 registerUser(char *host)
 {
