@@ -44,7 +44,7 @@ loginUser(char *host) {
        if(result->rescode != 0){
            printf("\nWelcome %s !\n",username);
 	   if(strcmp(username,"admin")==0) {
-		printf("\nNumber of registered Users are: %ld\n", result->usercount);
+		printf("\nNumber of registered Users are: %ld\n", (result->usercount - 1));
 	   }
 	   exit(0);
        }else {

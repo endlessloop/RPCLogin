@@ -58,10 +58,6 @@ long getLineCount() {
  * Desc: Helper method to get the total registered user count
 */
 long getRegisteredUserCount() {
-  
-  if(registeredUserCount != 0) {
-    return registeredUserCount;
-  }
 
   registeredUserCount = getLineCount();
 
